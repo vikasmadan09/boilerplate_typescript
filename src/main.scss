@@ -1,0 +1,25 @@
+@import "./assets/css/custom-properties.css";
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: local("OpenSans-Bold"), url("./assets/fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "OpenSans-Italic";
+  src: local("OpenSans-Italic"), url("./assets/fonts/OpenSans-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: local("OpenSans-Regular"), url("./assets/fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+body {
+  font-family: var(--font-family);
+  background-color: aquamarine;
+}
+.container {
+  background-color: aquamarine;
+  color: black;
+}

@@ -1,0 +1,25 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+yarn-error.log*
+
+# production
+/build
+
+# Testing #
+###########
+/temp/
+/coverage/
+/errorShots/
+
+# IDE #
+#######
+.idea/
+*.iml
+
+# Node + NPM #
+##############
+node_modules/
+*.lock
